@@ -6,9 +6,13 @@ By Vendor
 * https://nvidia.github.io/open-gpu-doc/
 * https://github.com/envytools/envytools
 
+### Assembly
+* https://docs.nvidia.com/cuda/parallel-thread-execution/index.html
+
 ### Projects that might yield interesting info
 * https://github.com/pakmarkthub/dragon direct resource access for GPUs over NVM (similer to mmap on CPUs)
 * https://github.com/yalue/cuda_scheduling_examiner_mirror
+* https://github.com/NVlabs/NVBit Binary instrumentation tool
 
 ## AMD
 
