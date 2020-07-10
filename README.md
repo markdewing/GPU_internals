@@ -23,7 +23,7 @@ By Vendor
 * https://software.intel.com/content/www/us/en/develop/articles/introduction-to-gen-assembly.html
 
 ## Raspberry Pi
-* https://github.com/m516/QPULib-CMake library for programming QPU (Quad Processing Units)
+* https://github.com/mn416/QPULib library for programming QPU (Quad Processing Units)
 * https://github.com/doe300/VC4CL  OpenCL implementation
 
 
