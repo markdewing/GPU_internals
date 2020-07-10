@@ -1,5 +1,5 @@
 # GPU Internals
-Documentation on how GPU's work internally and communicate externally
+Documentation on how GPU's work internally and communicate externally.  Mostly focused on compute applications.
 
 By Vendor
 ## NVidia
@@ -24,3 +24,21 @@ By Vendor
 
 ## Raspberry Pi
 * https://github.com/m516/QPULib-CMake
+
+
+# Questions
+
+* How do transfers across the bus (usually PCI-e) work?
+  * NVidia has GPUDirect which can transfer from device to device (and bypass the CPU)  https://docs.nvidia.com/cuda/gpudirect-rdma/index.html
+  * Does this change with other buses (CAPI, NVLink?)
+  
+* How does memory management work?
+   * How is the memory map maintained?  There must be some sort of MMU to provide memory protections.  How does it work?
+
+* What is the lifecycle of a kernel in detail?
+  * It must be something like
+    1. Copy kernel to GPU memory
+    2. Start executing kernel (how?)
+    3. Signal that the kernel is finished
+    
+ * Examples on visualizing the execution behavior of kernels
