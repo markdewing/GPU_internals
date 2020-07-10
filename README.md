@@ -15,6 +15,7 @@ By Vendor
 * https://github.com/NVlabs/NVBit Binary instrumentation tool
 
 ## AMD
+* https://rocmdocs.amd.com/en/latest/  ROCm documentation
 ### Assembly
 * https://developer.amd.com/resources/developer-guides-manuals/
 
