@@ -15,6 +15,8 @@ By Vendor
 * https://github.com/NVlabs/NVBit Binary instrumentation tool
 
 ## AMD
+### Assembly
+* https://developer.amd.com/resources/developer-guides-manuals/
 
 ## Intel
 * https://software.intel.com/content/www/us/en/develop/articles/introduction-to-gen-assembly.html
