@@ -2,12 +2,12 @@
 Documentation on how GPU's work internally and communicate externally.  Mostly focused on compute applications.
 
 By Vendor
-## NVidia
+## NVIDIA
 * https://nvidia.github.io/open-gpu-doc/
 * https://github.com/envytools/envytools
 
 ### Assembly
-* https://docs.nvidia.com/cuda/parallel-thread-execution/index.html
+* [Nvidia assembly](Nvidia_assembly.md)
 
 ### Projects that might yield interesting info
 * https://github.com/pakmarkthub/dragon direct resource access for GPUs over NVM (similer to mmap on CPUs)
