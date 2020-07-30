@@ -27,3 +27,8 @@ To get debugging information from the OpenMP library, configure LLVM with `-DLIB
 
 ## CUDA
 
+## Example codes
+My own repository for samples is here: https://github.com/markdewing/qmc_kernels
+
+The `vector_add` kernel has the most implementations, being the simplest example that actually does something: https://github.com/markdewing/qmc_kernels/tree/master/kernels/vector_add
+
