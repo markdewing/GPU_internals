@@ -1,6 +1,6 @@
-# NVidia Assembly
+# Nvidia Assembly
 
-There are two levels of assembly for NVidia.
+There are two levels of assembly for Nvidia GPU's
 The high level virtual machine assembly is PTX (Portable Thread Execution).
 The lower level assembly that directly corresponds to the GPU ISA is SASS.
 
