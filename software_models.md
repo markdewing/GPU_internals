@@ -1,6 +1,6 @@
 # Programming models for GPUs
 
-Collection of information about programming models.  Particularly about implementation and lower level imformation.
+Collection of information about programming models.  Particularly about implementation and lower level information.
 Knowing lower levels of abstraction is invaluable for debugging and reasoning about performance.
 
 ## OpenCL
@@ -8,6 +8,9 @@ Knowing lower levels of abstraction is invaluable for debugging and reasoning ab
 * Khronos ICD loader: https://github.com/KhronosGroup/OpenCL-ICD-Loader
 
    Can be useful to build yourself to debug problems (for example, an OpenCL implementation library not showing up in the list of devices because it is silently failing at the dynamic link stage)
+   
+* OpenCL device simulator, Oclgrind: https://github.com/jrprice/Oclgrind
+* Open source implementation, POCL: http://portablecl.org/
 
 ## OpenMP target offload
 
@@ -22,6 +25,7 @@ The failure mode is hard to diagnose, unfortunately.  The CUDA error is "device 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
 
 ## Kokkos
+* Core library: https://github.com/kokkos/kokkos
 
 ## SYCL
 
