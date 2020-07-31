@@ -7,7 +7,7 @@ By Vendor
 * https://github.com/envytools/envytools
 
 ### Assembly
-* [Nvidia assembly](Nvidia_assembly.md)
+* [Nvidia assembly](Nvidia_assembly.md) (and low level programming info)
 
 ### Projects that might yield interesting info
 * https://github.com/pakmarkthub/dragon direct resource access for GPUs over NVM (similer to mmap on CPUs)
@@ -17,7 +17,7 @@ By Vendor
 ## AMD
 * https://rocmdocs.amd.com/en/latest/  ROCm documentation
 ### Assembly
-* https://developer.amd.com/resources/developer-guides-manuals/
+* [AMD GPU assembly](AMD_assembly.md) (and low level programming info)
 
 ## Intel
 * https://software.intel.com/content/www/us/en/develop/articles/introduction-to-gen-assembly.html
