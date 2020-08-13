@@ -6,6 +6,8 @@ PDF versions and CPU manuals: https://developer.amd.com/resources/developer-guid
 
 Top level of ROCm documentation: https://rocmdocs.amd.com/en/latest/
 
+Video on [Understanding AMD GPU ISA](https://www.youtube.com/watch?v=HYrs_TGWgz4) (from [NERSC GPUs for Science 2020](https://www.nersc.gov/users/training/gpus-for-science/gpus-for-science-2020/)).   This video walks step by step through the generated assembly for an AXPY kernel. 
+
 
 ### Vector add example
 
@@ -23,6 +25,8 @@ __global__ void vector_add(const RealType *a, const RealType *b, RealType *c, co
 
 Using `hipcc -v -save-temps=cwd -O2 -amdgpu-target=gfx900 hip_vector_add.cpp` leaves a number of intermediate files.
 The device assembly is in `hip_vector_add-hip-amdgcn-amd-amdhsa-gfx900.s`
+
+See the "Understanding AMD GPU ISA" video above for a detailed walkthrough of a similar kernel.
 
 ```
   .protected  _Z10vector_addPKfS0_Pfi ; -- Begin function _Z10vector_addPKfS0_Pfi
