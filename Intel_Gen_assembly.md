@@ -2,6 +2,8 @@
 
 Introduction: https://software.intel.com/content/www/us/en/develop/articles/introduction-to-gen-assembly.html
 
+Detailed documentation: https://01.org/linuxgraphics/documentation
+
 ## Vector add example
 
 OpenCL kernel
