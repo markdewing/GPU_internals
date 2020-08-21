@@ -29,6 +29,8 @@ By Vendor
 * https://github.com/mn416/QPULib library for programming QPU (Quad Processing Units)
 * https://github.com/doe300/VC4CL  OpenCL implementation
 
+# Programming Models
+[Software models for programming GPUs](software_models.md)
 
 # Questions
 
