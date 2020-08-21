@@ -2,7 +2,7 @@
 Documentation on how GPU's work internally and communicate externally.  Mostly focused on compute applications.
 
 By Vendor
-## NVIDIA
+# NVIDIA
 * https://nvidia.github.io/open-gpu-doc/
 * https://github.com/envytools/envytools
 
@@ -14,15 +14,18 @@ By Vendor
 * https://github.com/yalue/cuda_scheduling_examiner_mirror
 * https://github.com/NVlabs/NVBit Binary instrumentation tool
 
-## AMD
+# AMD
 * https://rocmdocs.amd.com/en/latest/  ROCm documentation
 ### Assembly
 * [AMD GPU assembly](AMD_assembly.md) (and low level programming info)
 
-## Intel
-* https://software.intel.com/content/www/us/en/develop/articles/introduction-to-gen-assembly.html
+# Intel
+* [Wikipedia entry on Intel GPU](https://en.wikipedia.org/wiki/List_of_Intel_graphics_processing_units)
+* [Wikichip entry on Gen9.5](https://en.wikichip.org/wiki/intel/microarchitectures/gen9.5)
+### Assembly
+* [Intel Gen assembly](Intel_Gen_assembly.md) (and low level programming info)
 
-## Raspberry Pi
+# Raspberry Pi
 * https://github.com/mn416/QPULib library for programming QPU (Quad Processing Units)
 * https://github.com/doe300/VC4CL  OpenCL implementation
 
