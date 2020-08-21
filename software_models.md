@@ -11,6 +11,7 @@ Knowing lower levels of abstraction is invaluable for debugging and reasoning ab
    
 * OpenCL device simulator, Oclgrind: https://github.com/jrprice/Oclgrind
 * Open source implementation, POCL: http://portablecl.org/
+* [SPIR-V](SPIRV.md) is used for an intermediate device-independent distribution format
 
 ## OpenMP target offload
 
