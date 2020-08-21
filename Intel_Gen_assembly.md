@@ -59,3 +59,10 @@ L0:
 L352:
 
 ```
+
+## Runtime
+The Compute Runtime https://github.com/intel/compute-runtime provides services for OpenCL and [Level Zero](https://github.com/oneapi-src/level-zero).  Level Zero  is the base interface for [oneApi](https://spec.oneapi.com/versions/latest/introduction.html).
+
+It seems [SPIR-V](SPIRV.md) is used as the intermediate language.
+
+Question: How do all the pieces that go into the Compute Runtime fit together?
