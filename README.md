@@ -1,6 +1,11 @@
 # GPU Internals
 Documentation on how GPU's work internally and communicate externally.  Mostly focused on compute applications.
 
+Knowing details about internals is useful for
+ * debugging - some problems need understanding of lower levels of abstraction
+ * performance - need to know hardware layout to reason about performance
+ * curosity - more confidence in using programming models with a better understanding of the hardware and abstraction layers
+
 # By Vendor
 ## NVIDIA
 * https://nvidia.github.io/open-gpu-doc/
