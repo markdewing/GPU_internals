@@ -25,6 +25,9 @@ The failure mode is hard to diagnose, unfortunately.  The CUDA error is "device 
 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
 
+### GCC
+* https://gcc.gnu.org/wiki/Offloading
+
 ## Kokkos
 * Core library: https://github.com/kokkos/kokkos
 
