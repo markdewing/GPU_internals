@@ -21,6 +21,7 @@ Knowing details about internals is useful for
 
 ## AMD
 * https://rocmdocs.amd.com/en/latest/  ROCm documentation
+* https://github.com/RadeonOpenCompute/ROCm ROCm source  (See "Getting the ROCm Source Code" in the Installation Guide in the documentation)
 #### Assembly
 * [AMD GPU assembly](AMD_assembly.md) (and low level programming info)
 
