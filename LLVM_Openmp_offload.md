@@ -12,8 +12,13 @@ Moving to the JIT model should ease this compatibility issue.
 
 ### Understanding the toolchain
 The toolchain is much more complex for target offload.
-* Use `-ccc-print-phases` to see all the toolchain steps.
-* Use `-save-temps` to see all the intermediate files
+* Use `-ccc-print-phases` to see all the toolchain steps and dependency hierarchy.
+* Use `-ccc-print-bindings` to see bindings of tools to actions (outputs the triple, the tool, input files, and output files).
+* Use `-save-temps` to see all the intermediate files (this also adds extra steps with human-readable output, like the preprocessor and the assembler)
+* Use `-v` (`-verbose`) to see all the tool invocations command lines.
+
+For a host-only program the compiler has a couple of sub-steps: the compilation of code to an object file, and the linking of the object file(s).
+For target offload, there is also compilation to object code for the offload device and combining different objects into the final executable (beyond what a normal linker does)
 
 ### Runtime debugging
 
