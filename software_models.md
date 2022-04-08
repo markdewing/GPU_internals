@@ -16,7 +16,7 @@ Knowing lower levels of abstraction is invaluable for debugging and reasoning ab
 ## OpenMP target offload
 
 ### LLVM/Clang
-See [LLVM OpenMP offload](LLVM_OpenMP_offload.md)
+See [LLVM OpenMP offload](LLVM_Openmp_offload.md)
 
 ### GCC
 * https://gcc.gnu.org/wiki/Offloading
