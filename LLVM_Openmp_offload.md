@@ -20,6 +20,8 @@ The toolchain is much more complex for target offload.
 For a host-only program the compiler has a couple of sub-steps: the compilation of code to an object file, and the linking of the object file(s).
 For target offload, there is also compilation to object code for the offload device and combining different objects into the final executable (beyond what a normal linker does)
 
+The [clang-offload-wrapper](https://clang.llvm.org/docs/ClangOffloadWrapper.html) tool embeds device code into the host file.
+
 ### Runtime debugging
 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
