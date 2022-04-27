@@ -2,6 +2,8 @@
 
 Home page: https://openmp.llvm.org/index.html
 
+Design of offload: https://clang.llvm.org/docs/OffloadingDesign.html
+
 ### Building
 
 When building, determing the GPU architecture is important: Clang/OpenMP must be built to support your hardware precisely.
