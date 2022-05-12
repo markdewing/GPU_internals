@@ -10,6 +10,7 @@ Knowing details about internals is useful for
 ## NVIDIA
 * https://nvidia.github.io/open-gpu-doc/
 * https://github.com/envytools/envytools
+* Linux kernel modules source: https://github.com/NVIDIA/open-gpu-kernel-modules
 
 #### Assembly
 * [Nvidia assembly](Nvidia_assembly.md) (and low level programming info)
