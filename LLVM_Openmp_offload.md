@@ -24,6 +24,11 @@ For target offload, there is also compilation to object code for the offload dev
 
 The [clang-offload-wrapper](https://clang.llvm.org/docs/ClangOffloadWrapper.html) tool embeds device code into the host file.
 
+### Targets
+How to know what value to use for `-fopenmp-targets`?
+
+There most definitive list is in https://github.com/llvm/llvm-project/blob/main/openmp/libomptarget/CMakeLists.txt
+
 ### Runtime debugging
 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
