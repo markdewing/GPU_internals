@@ -22,9 +22,7 @@ See [LLVM OpenMP offload](LLVM_Openmp_offload.md)
 * https://gcc.gnu.org/wiki/Offloading
 
 ### Examples
-The OpenMP organization maintains examples along with the standard
-* https://github.com/OpenMP/Examples  (see the tags for different standard versions)
-* Links to the Examples documents are on the [Specifications](https://www.openmp.org/specifications/) page.
+See the [OpenMP_examples](OpenMP_examples.md) page.
 
 
 ## Kokkos
