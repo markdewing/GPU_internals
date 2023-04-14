@@ -6,6 +6,9 @@ The OpenMP organization maintains examples along with the standard
 * https://github.com/OpenMP/Examples  (see the tags for different standard versions)
 * Links to the Examples documents are on the [Specifications](https://www.openmp.org/specifications/) page.
 
+### Tutorials
+* Tutorial files: https://github.com/vlkale/OpenMP-tutorial
+
 ### Calling external libraries
 * Calling nvblas, cublas, and MKL: https://github.com/colleeneb/openmp_offload_and_blas
 
