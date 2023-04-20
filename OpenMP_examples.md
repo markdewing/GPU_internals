@@ -8,6 +8,7 @@ The OpenMP organization maintains examples along with the standard
 
 ### Tutorials
 * Tutorial files: https://github.com/vlkale/OpenMP-tutorial
+* OpenMP 4.5 examples: https://github.com/colleeneb/openmp45_examples
 
 ### Calling external libraries
 * Calling nvblas, cublas, and MKL: https://github.com/colleeneb/openmp_offload_and_blas
