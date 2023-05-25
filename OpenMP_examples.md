@@ -20,3 +20,7 @@ The OpenMP organization maintains examples along with the standard
 ### LLVM
 * OpenMP tests directory in clang: https://github.com/llvm/llvm-project/tree/main/clang/test/OpenMP
 * libomptarget tests in openmp: https://github.com/llvm/llvm-project/tree/main/openmp/libomptarget/test
+
+
+### Examples
+* Large collection of kernels and small codes in CUDA/HIP/Sycl/OpenMP: https://github.com/zjin-lcf/HeCBench
