@@ -24,6 +24,9 @@ See [LLVM OpenMP offload](LLVM_Openmp_offload.md)
 ### Examples
 See the [OpenMP_examples](OpenMP_examples.md) page.
 
+### Observations
+Observations and comments on programming OpenMP in the [OpenMP_observations](OpenMP_observations.md) page.
+
 
 ## Kokkos
 * Core library: https://github.com/kokkos/kokkos
