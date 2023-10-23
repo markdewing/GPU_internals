@@ -9,6 +9,9 @@ The OpenMP organization maintains examples along with the standard
 ### Tutorials
 * Tutorial files: https://github.com/vlkale/OpenMP-tutorial
 * OpenMP 4.5 examples: https://github.com/colleeneb/openmp45_examples
+* From Oak Ridge National Laboratory 
+  * Part 1: [Basics of Offload](https://www.olcf.ornl.gov/calendar/introduction-to-openmp-offload-part-1-basics-of-offload-2/)
+  * Part 2: [Optimization and Data Movement](https://www.olcf.ornl.gov/https/wwwolcfornlgov/calendar/introduction-to-openmp-offload-part-2-optimization-and-data-management-2/)
 
 ### Calling external libraries
 * Calling nvblas, cublas, and MKL: https://github.com/colleeneb/openmp_offload_and_blas
