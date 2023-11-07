@@ -27,6 +27,15 @@ The [clang-offload-wrapper](https://clang.llvm.org/docs/ClangOffloadWrapper.html
 ### Targets
 How to know what value to use for `-fopenmp-targets`?
 
+Most likely you will want:
+
+* amdgcn-amd-amdhsa
+* nvptx64-nvidia-cuda
+* x86_64-pc-linux-gnu
+
+Shortened versions, `amdgcn` and `nvptx64` also work.
+  
+
 There most definitive list is in https://github.com/llvm/llvm-project/blob/main/openmp/libomptarget/CMakeLists.txt
 
 ### Runtime debugging
