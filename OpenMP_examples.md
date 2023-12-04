@@ -6,6 +6,10 @@ The OpenMP organization maintains examples along with the standard
 * https://github.com/OpenMP/Examples  (see the tags for different standard versions)
 * Links to the Examples documents are on the [Specifications](https://www.openmp.org/specifications/) page.
 
+### Books
+* [Programming Your GPU with OpenMP: Performance Portability for GPUs](https://direct.mit.edu/books/monograph/5685/Programming-Your-GPU-with-OpenMPPerformance)   - An excellent guide to OpenMP offload programming.
+   * Associated website: https://ompgpu.com/
+
 ### Tutorials
 * Tutorial files: https://github.com/vlkale/OpenMP-tutorial
 * OpenMP 4.5 examples: https://github.com/colleeneb/openmp45_examples
