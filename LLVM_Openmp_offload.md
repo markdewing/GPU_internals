@@ -41,6 +41,8 @@ Shortened versions, `amdgcn` and `nvptx64` also work.
 
 There most definitive list is in https://github.com/llvm/llvm-project/blob/main/openmp/libomptarget/CMakeLists.txt
 
+Alternately, `--offload-arch` will work.  Using `--offload-arch=native` will detect the device architecture.
+
 ### Runtime debugging
 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
