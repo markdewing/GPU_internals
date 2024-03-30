@@ -22,7 +22,10 @@ The toolchain is much more complex for target offload.
 For a host-only program the compiler has a couple of sub-steps: the compilation of code to an object file, and the linking of the object file(s).
 For target offload, there is also compilation to object code for the offload device and combining different objects into the final executable (beyond what a normal linker does)
 
-The [clang-offload-wrapper](https://clang.llvm.org/docs/ClangOffloadWrapper.html) tool embeds device code into the host file.
+The [clang-offload-packager](https://clang.llvm.org/docs/ClangOffloadPackager.html) tool embeds device code into the host file. (The offload packager replaced the offload wrapper tool).
+The [clang-linker-wrapper](https://clang.llvm.org/docs/ClangLinkerWrapper.html) will pull out device code (in `.llm.offloading`) and call the regular linker.
+
+The embedded device code can be extracted with `clang-offload-packager file.o --image=file=out.bc`.
 
 ### Targets
 How to know what value to use for `-fopenmp-targets`?
