@@ -1,6 +1,8 @@
 # AMD GPU assembly
 
-ISA Manuals: https://rocmdocs.amd.com/en/latest/GCN_ISA_Manuals/GCN-ISA-Manuals.html
+ISA Manuals: https://gpuopen.com/amd-gpu-architecture-programming-documentation/
+
+In addition to the ISA (Instruction Set Architecture) manuals, the above page has some documentation on the Micro Engine Scheduler (MES) for RDNA3.
 
 PDF versions and CPU manuals: https://developer.amd.com/resources/developer-guides-manuals/
 
