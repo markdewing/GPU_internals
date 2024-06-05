@@ -35,6 +35,12 @@ Observations and comments on programming OpenMP in the [OpenMP_observations](Ope
 
 ## CUDA
 
+# AI/ML
+Machine learning has given rise to a number of models for writing kernels
+* [Triton language and compiler](https://triton-lang.org/main/index.html) and https://github.com/triton-lang/triton
+  *   Not to be confused with the Triton Inference Server from NVidia
+* Apache [TVM](https://tvm.apache.org/).  [TensorIR](https://tvm.apache.org/docs/tutorial/tensor_ir_blitz_course.html) is at the closest semantic level to Triton.  Nice tutorial from [Machine Learning Compliation](https://mlc.ai/chapter_introduction/index.html)
+
 ## Example codes
 My own repository for samples is here: https://github.com/markdewing/qmc_kernels
 
