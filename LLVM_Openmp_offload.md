@@ -46,3 +46,10 @@ Alternately, `--offload-arch` will work.  Using `--offload-arch=native` will det
 ### Runtime debugging
 
 To get debugging information from the OpenMP library, configure LLVM with `-DLIBOMPTARGET_ENABLE_DEBUG=1` and set the enviroment variable `LIBOMPTARGET_DEBUG=1` at runtime.
+
+### Running bare kernels
+This isn't specific to OpenMP, but the testing code for the GPU version of libc contains a command line kernel launcher (with support for AMD and NVidia).
+
+* Documentation: https://github.com/llvm/llvm-project/blob/main/libc/docs/gpu/using.rst
+* Code: https://github.com/llvm/llvm-project/tree/main/libc/utils/gpu/loader
+
