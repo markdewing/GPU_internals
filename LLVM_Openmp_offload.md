@@ -39,7 +39,7 @@ Most likely you will want:
 Shortened versions, `amdgcn` and `nvptx64` also work.
   
 
-There most definitive list is in https://github.com/llvm/llvm-project/blob/main/openmp/libomptarget/CMakeLists.txt
+The most definitive list is in https://github.com/llvm/llvm-project/blob/main/openmp/libomptarget/CMakeLists.txt
 
 Alternately, `--offload-arch` will work.  Using `--offload-arch=native` will detect the device architecture.
 
