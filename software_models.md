@@ -35,6 +35,9 @@ Observations and comments on programming OpenMP in the [OpenMP_observations](Ope
 
 ## CUDA
 
+## Chapel
+[Chapel](https://chapel-lang.org/) is a programming language designed for productive parallel programming.  It now suports [GPU programming](https://chapel-lang.org/docs/technotes/gpu.html).
+
 # AI/ML
 Machine learning has given rise to a number of models for writing kernels
 * [Triton language and compiler](https://triton-lang.org/main/index.html) and https://github.com/triton-lang/triton
