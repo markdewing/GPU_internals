@@ -26,3 +26,6 @@ The cache directory contains the kernels - metadata files, various IR stages, PT
 ### Kernel Launch
 The `CompiledKernel` `__init__` function reads the data from the files, including the compiled binary.
 https://github.com/triton-lang/triton/blob/23295314ec695711e9c3ae3fd39f5ba488f0b9ab/python/triton/compiler/compiler.py#L336
+
+For NVidia, the call to extract the kernel from the module data occurs in `loadBinary` in `third_party/nvidia/backend/driver.c` (calls `cuModuleLoadData`) https://github.com/triton-lang/triton/blob/cd4a172c79c69fff91b893c2e5deb78a7a887c26/third_party/nvidia/backend/driver.c#L82 
+It's exposed to Python as `load_binary` in `CudaUtils`.
